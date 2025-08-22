@@ -9378,6 +9378,22 @@ input, select, textarea {
 			opacity: 1;
 		}
 
+
+		@media screen and (max-width: 1440px) {
+
+			.tiles {
+				padding-left: 1.7em;
+				padding-right: 1.7em;
+				gap: 2em;
+			}
+
+				.tiles article {
+					width: calc(25% - 2.0em);
+				}
+
+		}
+
+
 		@media screen and (max-width: 1366px) {
 
 			.tiles {
